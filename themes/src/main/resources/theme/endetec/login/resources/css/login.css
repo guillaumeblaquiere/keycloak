@@ -1,4 +1,4 @@
-.kc-feedback-text{
+.login-pf .container [class^='alert']{
     color: #cc0000;
 }
 

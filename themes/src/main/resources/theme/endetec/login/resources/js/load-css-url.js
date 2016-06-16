@@ -18,3 +18,13 @@ lien_css.setAttribute("rel","stylesheet");
 lien_css.setAttribute("type","text/css");
 document.getElementsByTagName("head").item(0).appendChild(lien_css);
 
+
+
+/*******/
+document.getElementById("username").setAttribute("autocomplete","on");
+document.getElementById("password").setAttribute("autocomplete","on");
+document.getElementById("kc-form-login").setAttribute("onsubmit","trimOnSubmit();");
+
+function trimOnSubmit(){
+    document.getElementById("username").value=document.getElementById("username").value.trim();
+}
