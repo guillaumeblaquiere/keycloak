@@ -45,7 +45,7 @@ body{
 
 #kc-header{
     display: none;
-    background: transparent url("../img/Logos_Endetec_HOMERIDER_RVB.png") center no-repeat ;
+    background: transparent url("../img/logo-homerider-baseline-coul.png") center no-repeat ;
     background-size: 60%;
     z-index: 1;
     position: absolute;
@@ -88,8 +88,9 @@ body{
 #kc-logo-wrapper {
     position: absolute;
     z-index: 1;
-    background: transparent url("../img/Logos_Endetec_HOMERIDER_RVB.png") center no-repeat ;
-    background-size: contain;
+    background: transparent url("../img/logo-homerider-baseline-coul.png") center no-repeat ;
+    background-color: rgba(255,255,255,0.6);
+    background-size: 90%;
     height: 12%;
     width: 21%;
     margin-top: 4%;
